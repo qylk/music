@@ -4,9 +4,6 @@ import com.qylk.music.core.bus.BackgroundBus;
 import com.qylk.music.core.bus.ComponentBus;
 import com.qylk.music.core.bus.UiBus;
 
-/**
- * Created by qylk on 15/5/5.
- */
 public class BusCenter {
     private static BusCenter sInstance = new BusCenter();
 

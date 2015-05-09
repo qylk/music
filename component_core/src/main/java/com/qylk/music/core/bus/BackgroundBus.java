@@ -9,13 +9,6 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Ponyets
- * Date: 13-2-28
- * Time: 上午11:24
- * To change this template use File | Settings | File Templates.
- */
 public class BackgroundBus extends Bus {
 
     private final Executor mExecutorService = Executors.newFixedThreadPool(3, new LowPriorityThreadFactory());
