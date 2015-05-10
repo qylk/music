@@ -22,15 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="app" />
         <module name="component_core" />
-        <module name="untitled" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="app" target="1.6" />
       <module name="component_core" target="1.6" />
       <module name="MyMusic" target="1.6" />
-      <module name="untitled" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
